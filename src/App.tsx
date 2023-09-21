@@ -2,6 +2,7 @@ import {useEffect} from 'react'
 
 const App = () => {
   useEffect(() => {
+    //@ts-ignore
     window.Telegram.WebApp.ready();
   }, [])
   // useEffect(() => {
